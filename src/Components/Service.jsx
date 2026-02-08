@@ -97,7 +97,7 @@ export default function ServicesPage() {
         {/* ================= SERVICES ================= */}
         <section>
           <div className="text-center mb-10">
-            <h2 className="text-4xl font-bold">Our Services</h2>
+            <h2 className="text-4xl font-bold">Explore Our Services</h2>
             <p className="text-slate-500 mt-2">
               Tailored engineering excellence for every requirement
             </p>

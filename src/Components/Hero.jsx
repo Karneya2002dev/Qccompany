@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRightCircle, ChevronLeft, ChevronRight, Download, Users } from "lucide-react";
 import logo from "../assets/logo11.png"
 import ContactForm from "./Contact";
+import ServicesPage from "./Service";
 
 const SLIDES = [
   {
@@ -59,6 +60,7 @@ export default function HeroSlider() {
   const prevSlide = () => setIndex((prev) => (prev - 1 + SLIDES.length) % SLIDES.length);
 
   return (
+    <>
     <div>
       {/* Hero Section */}
       <section className="relative w-full h-[80vh] overflow-hidden">
@@ -192,6 +194,7 @@ export default function HeroSlider() {
               </motion.div>
             ))}
           </div>
+               <ServicesPage />
 
         </div>
       </section>
@@ -218,8 +221,12 @@ export default function HeroSlider() {
         </div>
       </section>
       {/* ----------------------- */}
+    
 
       <ContactForm />
+      
     </div>
+
+  </>
   );
 }
