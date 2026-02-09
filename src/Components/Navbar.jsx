@@ -65,22 +65,23 @@ export default function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center py-4">
           {/* Logo for Mobile */}
-          <Link to="/" className="flex items-center gap-3 lg:hidden">
-            <div className="h-10 w-10 bg-gray-200 rounded flex items-center justify-center">
-              <img
-                src={logo}
-                alt="Kuwait Indo"
-                className="h-8 w-8 object-contain"
-              />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-blue-900">
-                Quick
-              </h1>
-              <span className="text-sm text-gray-600">
-                السريعة
-              </span></div>
-          </Link>
+      <Link to="/" className="flex items-center gap-3 lg:hidden max-w-[80%]">
+  <img
+    src={logo}
+    alt="Logo"
+    className="h-10 w-auto"
+  />
+
+  <div className="flex flex-col">
+    <h1 className="text-sm sm:text-base font-bold text-blue-900 leading-tight break-words">
+      Quick Electrical Installations Company
+    </h1>
+    <span className="text-xs text-gray-600 leading-tight">
+      شركة التركيبات الكهربائية السريعة
+    </span>
+  </div>
+</Link>
+
 
           {/* Desktop menu */}
           <nav className="hidden w-full lg:flex justify-center items-center gap-12 bg-red-500 px-4 py-2 relative">
