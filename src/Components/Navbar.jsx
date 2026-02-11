@@ -26,9 +26,9 @@ export default function Header() {
             ISO 9001:2015 Certified Company
           </span>
           <div className="flex items-center gap-4">
-            <a href="tel:+96599693670" className="hover:underline">
+            {/* <a href="tel:+96599693670" className="hover:underline">
               (+965) 99693670
-            </a>
+            </a> */}
             <a href="mailto:qcompany877@gmail.com" className="hover:underline">
               qcompany877@gmail.com
             </a>
